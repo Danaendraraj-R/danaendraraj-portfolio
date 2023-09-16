@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Library Management System ",
+    "image": "./projectImages/weather.png",
+    "description": "I was responsible for the routing functionality of Bike Buddy, an application that helps parents and guardians keep their children safe while cycling. Utilises the Leaflet.js library and TomTom Routing/Reverse Geolocation API's to create an interactive and visually appealing map that allows a user to plot a route, taking into account various factors such as traffic levels, bicycle lanes, and elevation.",
+    "technologies": "ReactJS | PSQL | Node-JS",
+    "github": "",
+    "bgcolor": "#f37737",
+    "id": "1"
+  },
+  {
+    "title": "Post Office Management System ",
+    "image": "./projectImages/weather.png",
+    "technologies": "JSP | HTML | CSS | PSQL | Java Servlet",
+    "description": " This dashboard uses the OpenWeatherMap API to retrieve detailed weather data, including the city name, date, weather icon, temperature, humidity, and wind speed. The dashboard has a 5-day forecast feature and a search history feature that saves past searches for easy access. It also has a dark/light theme that changes the look of the page based on day or night in the searched location and uses the geolocation API to automatically determine the user's current location and display the weather.",
+    "github": "",
+    "bgcolor": "#29cbe0",
+    "id": "2"
+  },
+  {
+    "title": "Industry Specific Intelligent Fire Management System",
+    "image": "./projectImages/weather.png",
+    "technologies": "Node-RED | IBM Watson IOT | Python | Wokwi",
+    "description": "In this project the dashboard is made of NODE-RED,this system integrates with python and wokwi and deplyed on the NODE-JS .",
+    "github": "",
+    "bgcolor": "#6c4bf4",
+    "id": "3"
+  },
+  {
+    "title": "Industrial Fire IOT Management System using ReactJS",
+    "image": "./projectImages/weather.png",
+    "technologies": "React-JS | Node-JS | Blynk",
+    "description": "This Dashboard displays the data from the IOT Devices and displays it on the dasboard,it also specifies the working conditions of all the equipments.",
+    "github": "",
+    "bgcolor": "#f85781",
+    "id": "4"
+  }
+]

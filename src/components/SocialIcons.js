@@ -10,7 +10,7 @@ const SocialIcons = () => {
 
   return (
     <div className="socialIcons" style={styles.socialIcons}>
-      <a className="icon" style={styles.icon} href="https://github.com/mdyeates">
+      <a className="icon" style={styles.icon} href="https://github.com/Danaendraraj-R">
         <i className="fa-brands fa-github" aria-hidden="true" title="Danaendraraj R' GitHub Profile"></i>
       </a>
       <a className="icon" style={styles.icon} href="https://www.linkedin.com/in/danaendraraj-r-2227481b3/">

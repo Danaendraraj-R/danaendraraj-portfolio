@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/danaendraraj-portfolio/static/css/main.f77d7a2d.css",
-    "main.js": "/danaendraraj-portfolio/static/js/main.bae7a2e4.js",
+    "main.js": "/danaendraraj-portfolio/static/js/main.352cd153.js",
     "static/media/Danaendraraj.jpeg": "/danaendraraj-portfolio/static/media/Danaendraraj.99e9ee705ce366552bda.jpeg",
     "static/media/danaendraraj-resume.pdf": "/danaendraraj-portfolio/static/media/danaendraraj-resume.3bf22b48842e024ab3a7.pdf",
     "static/media/me.png": "/danaendraraj-portfolio/static/media/me.cc195a95d61aadd7d1f8.png",
@@ -10,10 +10,10 @@
     "static/media/close.svg": "/danaendraraj-portfolio/static/media/close.313a8e6ce95e72014ca00fb56d8b3ff3.svg",
     "static/media/open.svg": "/danaendraraj-portfolio/static/media/open.196e865822b06a50385b031f9913c3a0.svg",
     "main.f77d7a2d.css.map": "/danaendraraj-portfolio/static/css/main.f77d7a2d.css.map",
-    "main.bae7a2e4.js.map": "/danaendraraj-portfolio/static/js/main.bae7a2e4.js.map"
+    "main.352cd153.js.map": "/danaendraraj-portfolio/static/js/main.352cd153.js.map"
   },
   "entrypoints": [
     "static/css/main.f77d7a2d.css",
-    "static/js/main.bae7a2e4.js"
+    "static/js/main.352cd153.js"
   ]
 }

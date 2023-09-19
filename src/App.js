@@ -1,5 +1,7 @@
 import Header from "./components/Header";
 import AnimatedRoutes from "./components/AnimatedRoutes";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 
 function App() {
   const personalDetails = {
@@ -14,8 +16,9 @@ function App() {
   return (
     <>
       <Header />
-      <Router basename="/danaendraraj-portfolio"></Router>
+      <Router basename="/danaendraraj-portfolio">
       <AnimatedRoutes personalDetails={personalDetails} />
+      </Router>
     </>
   );
 }

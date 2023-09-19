@@ -6,7 +6,7 @@ import Portfolio from "../pages/portfolio/Portfolio";
 import Contact from "../pages/contact/Contact";
 import Certification from "../pages/certifications/Certification";
 //import Projects from "./Project";
-import PageNotFound from "../pages/404/PageNotFound";
+import PageNotFound from "../public/404.html";
 
 const AnimatedRoutes = ({ personalDetails }) => {
   const location = useLocation();

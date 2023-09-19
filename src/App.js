@@ -14,6 +14,7 @@ function App() {
   return (
     <>
       <Header />
+      <Router basename="/danaendraraj-portfolio"></Router>
       <AnimatedRoutes personalDetails={personalDetails} />
     </>
   );

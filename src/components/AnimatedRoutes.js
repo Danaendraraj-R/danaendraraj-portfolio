@@ -6,7 +6,6 @@ import Portfolio from "../pages/portfolio/Portfolio";
 import Contact from "../pages/contact/Contact";
 import Certification from "../pages/certifications/Certification";
 //import Projects from "./Project";
-import PageNotFound from "../public/404.html";
 
 const AnimatedRoutes = ({ personalDetails }) => {
   const location = useLocation();
@@ -34,8 +33,7 @@ const AnimatedRoutes = ({ personalDetails }) => {
         }
       />
         <Route path="/certifications" element={<Certification />} />
-      <Route path="/page-not-found" element={<PageNotFound />} />
-      <Route path="*" element={<Navigate to="/page-not-found" />} />
+  
     </Routes>
   );
 };

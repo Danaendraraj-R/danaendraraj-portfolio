@@ -2,7 +2,7 @@
   {
     "title": "Library Management System ",
     "image": "./projectImages/weather.png",
-    "description": "I was responsible for the routing functionality of Bike Buddy, an application that helps parents and guardians keep their children safe while cycling. Utilises the Leaflet.js library and TomTom Routing/Reverse Geolocation API's to create an interactive and visually appealing map that allows a user to plot a route, taking into account various factors such as traffic levels, bicycle lanes, and elevation.",
+    "description": "This project is a full stack web project that allows to manage a library system digitally with PSQL.There are to two panels in this project namely the admin and user.It digitally calculates the fine amount,sends alert to return the book and the user can also reserve the book if it is not available.",
     "technologies": "ReactJS | PSQL | Node-JS",
     "github": "",
     "bgcolor": "#f37737",
@@ -12,7 +12,7 @@
     "title": "Post Office Management System ",
     "image": "./projectImages/weather.png",
     "technologies": "JSP | HTML | CSS | PSQL | Java Servlet",
-    "description": " This dashboard uses the OpenWeatherMap API to retrieve detailed weather data, including the city name, date, weather icon, temperature, humidity, and wind speed. The dashboard has a 5-day forecast feature and a search history feature that saves past searches for easy access. It also has a dark/light theme that changes the look of the page based on day or night in the searched location and uses the geolocation API to automatically determine the user's current location and display the weather.",
+    "description": "This project is a full stack web project that allows to manage a Post-Office system digitally with Java,PSQLand JSP.The JAAS authenication is implemented which enables the IAM in this project.It also contains a dynamic export module which allow users to export the tables in PDF and XLSX format.",
     "github": "",
     "bgcolor": "#29cbe0",
     "id": "2"

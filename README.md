@@ -1,4 +1,3 @@
-Check out <a href="">port
 # Portfolio Project with ReactJS and EmailJS Integration
 
 This is a portfolio project built using ReactJS and integrated with EmailJS for sending email messages directly from the portfolio website. It serves as a showcase of your skills, projects, and contact information.

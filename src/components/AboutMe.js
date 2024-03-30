@@ -1,8 +1,8 @@
-import aboutMeImg from "../images/Danaendraraj.jpeg";
 import { motion } from "framer-motion";
- import SocialIcons from "../components/SocialIcons";
- import { useInView } from "react-intersection-observer";
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
+import { useInView } from "react-intersection-observer";
+import SocialIcons from "../components/SocialIcons";
+import aboutMeImg from "../images/Danaendraraj.jpeg";
 import resume from "../pages/about/danaendraraj-resume.pdf";
 
 const AboutMe = ({ name, email, location, availability, brand }) => {
@@ -52,10 +52,13 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
          >
            <div className="contentContainer">
              <h4>Nice to meet you</h4>
-             <h5>I'm a Software Engineer who crafts amazing digital experiences!</h5>
-            <div className="contentDescription"><p>To secure a challenging position in this organization
-                in order to improve my skill and work for the growth
-                of the organization</p>
+             <h5>I'm a Software Developer who crafts amazing digital experiences!</h5>
+            <div className="contentDescription"><p>Enthusiastic and motivated computer science graduate with a strong foundation in programming
+               languages such as Java, C, and Python. Completed multiple projects during academic studies,
+               demonstrating skills in software development, problem-solving, and collaboration. Eager to kick-start a
+               career in software development, with a passion for learning and a dedication to delivering high-quality
+               code. Seeking an opportunity to apply my technical knowledge and contribute to innovative projects as a
+               software developer.</p>
              </div>
              <div className="infoContainer">
                <div className="row">
@@ -82,29 +85,6 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
                <p>{availability}</p>
                  </div>
                </div>
-                 <div className="infoContainer">
-                 <div className="row">
-                     <div className="col-12 col-md-6 info">
-                         <span>Internship Experience:</span>
-                         <p>Zoho Corporation</p>
-
-                     </div>
-                 </div>
-                 <div className="row">
-                     <div className="col-12 col-md-6 info">
-                         <span>Title:</span>
-                         <p>Project Trainee</p>
-
-                     </div>
-                 </div>
-                 <div className="row">
-                     <div className="col-12 col-md-6 info">
-                         <span>Duration:</span>
-                         <p>Sep 2022- Feb 2022</p>
-
-                     </div>
-                 </div>
-             </div>
              </div>
              <div className="buttonContainer">
                <button className="btn downloadCV" onClick={handleDownload} disabled={downloading}>

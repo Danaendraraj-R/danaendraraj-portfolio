@@ -34,6 +34,7 @@
 .personalContactInfo {
   display: flex;
   align-items: center;
+  padding: 5px;
 }
 
 ul {
@@ -109,6 +110,7 @@ textarea {
 @media (min-width: 400px) {
   .contactInfo {
     font-size: 15px;
+    padding: 20px;
   }
 }
 

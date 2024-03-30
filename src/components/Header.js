@@ -1,10 +1,11 @@
-import NavLinks from "./NavLinks";
 import logo from "../images/dan-logo.jpg";
+import NavLinks from "./NavLinks";
+import "./logo.css";
 
 const Header = () => {
   return (
     <header className="header">
-      <img width={50} height={70} className="logo" src={logo} alt="Danaendraraj R' Logo" />
+      <img className="logo" src={logo} alt="Danaendraraj R' Logo" />
       <NavLinks />
     </header>
   );

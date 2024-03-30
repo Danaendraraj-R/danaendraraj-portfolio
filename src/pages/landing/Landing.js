@@ -1,10 +1,9 @@
-import { motion } from "framer-motion";
-import Typewriter from "typewriter-effect";
-import landingImage from "../../images/me.png";
-//import Draw from "../../components/Draw";
-import SocialIcons from "../../components/SocialIcons";
+import React from 'react';
+import Typewriter from 'typewriter-effect';
+import SocialIcons from '../../components/SocialIcons';
 
-const Landing = ({ name }) => {
+const Landing = ({ name, id }) => {
+
   const styles = {
     landing: {
       height: "calc(100% - 93px)",
@@ -39,9 +38,11 @@ const Landing = ({ name }) => {
     },
   };
 
-  return (
-    <section className="landing" style={styles.landing}>
 
+  return (
+    
+    <section className="landing" style={styles.landing}>
+    
       <div className="textContainer" style={styles.textContainer}>
         <h1 className="name" style={styles.name}>
           Danaendraraj R
@@ -52,29 +53,21 @@ const Landing = ({ name }) => {
             onInit={(typewriter) => {
               typewriter
                 .changeDelay(80)
-                .typeString("I'm a Software Engineer")
+                .typeString("I'm a Software Developer")
                 .pauseFor(1500)
                 .deleteAll()
-                .typeString("Actively seeking for a job ")
-
+                .typeString("I'm a Full Stack Developer")
+                .pauseFor(1500)
+                .deleteAll()
+                .typeString("Actively seeking for a job")
                 .start();
             }}
           />
         </div>
       </div>
-      <div className="image-container">
-        <motion.img
-          className="landingImage"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 0.4 }}
-          transition={{ duration: 1, ease: "easeInOut" }}
-          style={styles.landingImage}
-          src={landingImage}
-          alt="Danaendraraj R"
-        />
-      </div>
       <SocialIcons />
     </section>
+    
   );
 };
 

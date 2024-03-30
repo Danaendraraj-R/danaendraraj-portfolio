@@ -1,20 +1,31 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
-import openMenu from "../images/open.svg";
+import "../components/Navbar.css";
 import closeMenu from "../images/close.svg";
+import openMenu from "../images/open.svg";
 
 const NavLinks = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+ /* const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+    console.log('isMenuOpen:', isMenuOpen);
+  };*/
   return (
     <>
-      <button className="dropdown-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+     <button className="dropdown-toggle" onClick={() => {setIsMenuOpen(!isMenuOpen);
+     console.log('Toggle menu clicked, isMenuOpen:', isMenuOpen);
+}}>
         {isMenuOpen ? (
           <img className="closeMenu" src={closeMenu} alt="Close" />
         ) : (
           <img className="openMenu" src={openMenu} alt="Open" />
         )}
+    
+
       </button>
+  
+
       <nav className={`links ${isMenuOpen ? "open" : "closed"}`}>
         <NavLink to="/" onClick={() => setIsMenuOpen(false)}>
           Home
@@ -25,9 +36,9 @@ const NavLinks = () => {
         <NavLink to="/projects" onClick={() => setIsMenuOpen(false)}>
           Projects
         </NavLink>
-          <NavLink to="/certifications" onClick={() => setIsMenuOpen(false)}>
-              Certifications
-          </NavLink>
+        <NavLink to="/internship" onClick={() => setIsMenuOpen(false)}>
+          Internship
+        </NavLink>
         <NavLink to="/contact" onClick={() => setIsMenuOpen(false)}>
           Contact
         </NavLink>
@@ -37,3 +48,5 @@ const NavLinks = () => {
 };
 
 export default NavLinks;
+
+

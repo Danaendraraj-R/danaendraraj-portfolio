@@ -1,10 +1,10 @@
-import { Routes, Route, useLocation, Navigate } from "react-router-dom";
+import { Navigate, Route, Routes, useLocation } from "react-router-dom";
 
-import Landing from "../pages/landing/Landing";
+import Internship from "../pages/Internships/Internships";
 import About from "../pages/about/About";
-import Portfolio from "../pages/portfolio/Portfolio";
 import Contact from "../pages/contact/Contact";
-import Certification from "../pages/certifications/Certification";
+import Landing from "../pages/landing/Landing";
+import Portfolio from "../pages/portfolio/Portfolio";
 //import Projects from "./Project";
 import PageNotFound from "../pages/404/PageNotFound";
 
@@ -13,7 +13,7 @@ const AnimatedRoutes = ({ personalDetails }) => {
 
   return (
     <Routes location={location} key={location.pathname}>
-      <Route path="/" element={<Landing name={personalDetails.name} tagline={personalDetails.tagline} />} />
+      <Route path="/" element={<Landing name={personalDetails.name} tagline={personalDetails.tagline} />} />   
       <Route
         path="/about"
         element={
@@ -33,7 +33,7 @@ const AnimatedRoutes = ({ personalDetails }) => {
           <Contact name={personalDetails.name} location={personalDetails.location} email={personalDetails.email} />
         }
       />
-        <Route path="/certifications" element={<Certification />} />
+        <Route path="/internship" element={<Internship />} />
         <Route path="/page-not-found" element={<PageNotFound />} />
       <Route path="*" element={<Navigate to="/page-not-found" />} />
     </Routes>
